@@ -1,0 +1,25 @@
+
+
+#nav{
+  display: flex;
+  justify-content: space-between;
+  padding: 0 2rem ;
+
+}
+
+.header__menu{
+  display: flex;
+  gap: 1rem;
+}
+
+.top__header{
+  display: flex;
+  justify-content: space-between;
+}
+
+.top__left,
+.top__right{
+  display: flex;
+  gap: 1rem;
+}
+
