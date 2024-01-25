@@ -1,18 +1,34 @@
 .home{
   max-width: 2624px;
   width: 100%;
-  margin: 0 auto;
+  /* margin: 0 auto; */
 }
 
 .home__banner{
-  /* height: 100vh; */
-  width: 500px;
-  height: 300px;
+  height: 100vh;
+  width: 100%;
+  height: 500px;
   position: relative;
   overflow: hidden;
   display: flex;
   justify-content: center;
   gap: 2em;
+}
+
+.donate__btn{
+  position: absolute;
+  border: 1px solid red;
+  background-color: red;
+  color: white;
+  width: fit-content;
+  padding: 1rem 2rem;
+  font-size: 1rem;
+  letter-spacing: 4px;
+  border-radius: 8%;
+  bottom: 3rem;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
 }
 
 .slide{
