@@ -75,11 +75,11 @@ function changeSlide(){
 
 function resetTimer(){
   clearInterval(timer);
-  timer = setInterval(autoPlay, 5000);
+  timer = setInterval(autoPlay, 9000);
 }
 
 function autoPlay(){
   nextSlide();
   updateCircleIndicator()
 }
-let timer = setInterval(autoPlay, 3000)
+let timer = setInterval(autoPlay, 9000)
