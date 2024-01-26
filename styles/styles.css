@@ -1,6 +1,6 @@
 @font-face {
-  font-family: South;
-  src: url(/fonts/South-Korea.ttf);
+  font-family: Stop;
+  src: url(/fonts/Stopbuck.ttf);
 }
 
 
@@ -19,6 +19,7 @@ html {
 body {
   /* font-family: 'Questrial', sans-serif; */
   color: black;
+  background-color: rgb(231,240,247);
 }
 
 li{

@@ -1,16 +1,23 @@
 ul li a:hover{
-  color: red;
+  color:  #e00001;
+}
+
+ul li a{
+font-family: Stop;
+font-weight: 100;
+letter-spacing: .5px;
+transition: .2s;
 }
 
 .active{
-  color: red;
+  color:  #e00001;
 }
 
 #nav{
   display: flex;
   justify-content: space-between;
   padding: 2rem ;
-  height: 5rem;
+  height: 5.25rem;
   background-color: transparent;
   /* position: absolute; */
   z-index: 10;
@@ -32,5 +39,12 @@ ul li a:hover{
 .top__right{
   display: flex;
   gap: 1rem;
+}
+
+.header__logo img{
+  font-size: 10px;
+  width: 7rem;
+  position: relative;
+  bottom: 1rem;
 }
 

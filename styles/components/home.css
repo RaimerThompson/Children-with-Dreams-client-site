@@ -17,18 +17,19 @@
 
 .donate__btn{
   position: absolute;
-  border: 1px solid red;
-  background-color: red;
+  border: 1px solid  #e00001;
+  background-color:  rgb(218, 2, 2);
   color: white;
   width: fit-content;
   padding: 1rem 2rem;
   font-size: 1rem;
   letter-spacing: 4px;
   border-radius: 8%;
-  bottom: 3rem;
+  bottom: 6rem;
   left: 0;
   right: 0;
   margin: 0 auto;
+  font-family: Stop;
 }
 
 .slide{
@@ -69,3 +70,67 @@
   opacity: 1;
   /* transition: ease 1s; */
 }
+
+
+.prev,
+.next{
+  position: absolute;
+  z-index: 20;
+  top: 50%;
+  transform: translate(0, -50%); 
+  width: .5rem;
+  color: white;
+  /* line-height: 1rem; */
+  cursor: pointer;
+  font-size: 2rem;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.prev:hover,
+.next:hover{
+  opacity: .4 5;
+  color: black;
+}
+
+.prev:active,
+.next:active{
+  opacity: .8;
+  color: black;
+}
+.prev{
+left: 2rem;
+}
+
+.next{
+right: 2rem;
+}
+
+.indicator{
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  /* right: 0; */
+  margin: 0 auto;
+  bottom: 1rem;
+  z-index: 21;
+}
+
+
+.indicator div{
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  background-color: white;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 1rem;
+  margin: 0 8px;
+  cursor: pointer;
+}
+
+.indicator div.active{
+  background-color: black;
+  opacity: .65;
+} 
