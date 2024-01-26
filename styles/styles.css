@@ -17,7 +17,7 @@ html {
 }
 
 body {
-  /* font-family: 'Questrial', sans-serif; */
+  font-family: "Inter", sans-serif;
   color: black;
   background-color: rgb(231,240,247);
 }
@@ -80,17 +80,22 @@ textarea{
 }
 
 
+/* sm mobile */
+/* @media (min-width: 325px) {} */
 
-/* xs */
+/* md mobile */
+/* @media (min-width: 400px) {} */
+
+/* lg mobile */
 /* @media (min-width: 475px) {} */
 
-/* sm */
+/* sm Tablet */
 /* @media (min-width: 640px) {} */
 
-/* md */
+/* Tablet*/
 /* @media (min-width: 768px) {} */
 
-/* Lg */
+/* Laptop */
 /* @media (min-width: 1024px) {} */
 
 /* xL */

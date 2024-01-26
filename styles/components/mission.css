@@ -11,3 +11,56 @@
   justify-content: space-evenly;
   gap: 2em;
 }
+
+.mission__info{
+  border: 1px solid rgba(255, 255, 255, 0.009);
+  padding: 1rem;
+  border-radius: 8%;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  position: relative;
+}
+
+.mission__sub-title{
+  color:  rgb(218, 2, 2);
+  font-size: 1rem;
+  font-family: "Poppins", sans-serif;
+  position: relative;
+  top: -6px;
+}
+
+.mission__title{
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  letter-spacing: 2px;
+}
+
+.info__text{
+  padding-bottom: 3rem;
+  color: rgba(0, 0, 0, 0.85);
+}
+
+.mission__btn{
+  background-color: rgb(218, 2, 2);
+  color: #fff;
+  font-family: Stop;
+  width: 136px;
+  padding: .5rem;
+  border-radius: 8%;
+  letter-spacing: 1px;
+  margin: 0 auto;
+  position: absolute;
+  bottom: 4px;
+  left: 0;
+  right: 0;
+}
+
+.fa-solid{
+  color: rgb(218, 2, 2);
+  font-size: 2rem;
+  padding-bottom: 5px;
+}
+
