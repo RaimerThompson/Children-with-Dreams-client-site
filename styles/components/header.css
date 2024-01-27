@@ -48,3 +48,33 @@ transition: .2s;
   bottom: 1rem;
 }
 
+.top__btn{
+  color: #fff;
+  background-color: rgba(218, 2, 2, .8);
+  border: 2px solid  rgba(218, 2, 2, .8);
+  font-family: Stop;
+  padding: .75rem;
+  border-radius: 8%;
+  position: relative;
+  bottom: 14px;
+  letter-spacing: 2.5px;
+  transition: letter-spacing 400ms,
+  transform 400ms ;
+}
+
+.top__btn:hover{
+  background-color: white;
+  color: black;
+  border: 2px solid black;
+  transform: scale(1.1);
+  box-shadow: rgba(0, 0, 0, 0.5) 0px 5px 15px;
+}
+
+.stick__logo{
+height: 2.5rem;
+width: 4rem;
+position: absolute;
+right: 0;
+top: 0;
+fill: #fff;
+}

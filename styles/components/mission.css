@@ -1,3 +1,44 @@
+.main{
+  position: relative;
+  text-align: center;
+  padding: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: centers;
+  flex-direction: column;
+  gap: 1.75em;
+  margin-bottom: 1rem;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1038px;
+  bottom: 9px;
+}
+
+.main__title{
+  letter-spacing: 1px;
+
+}
+
+.main__text{
+  font-weight: 400;
+  line-height: 1.5;
+}
+
+.main__quote{
+  font-style: italic;
+  font-family: Quote;
+  font-size: 2.75rem;
+  letter-spacing: 2px;
+  font-weight: 100;
+}
+
+.main__quote-bottom{
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  /* font-size: 1.5rem; */
+  display: none;
+}
+
 .mission{
   text-align: center;
   padding: 1rem;
@@ -24,8 +65,12 @@
   position: relative;
 }
 
+.mission__info:hover{
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 5px 15px;
+}
+
 .mission__sub-title{
-  color:  rgb(218, 2, 2);
+  color:  rgb(218, 30, 30);
   font-size: 1rem;
   font-family: "Poppins", sans-serif;
   position: relative;
@@ -35,7 +80,11 @@
 .mission__title{
   font-size: 1.5rem;
   margin-bottom: 1rem;
-  letter-spacing: 2px;
+  letter-spacing: 1px;
+}
+
+.info__title{
+  font-family: "Poppins", sans-serif;
 }
 
 .info__text{
@@ -44,7 +93,7 @@
 }
 
 .mission__btn{
-  background-color: rgb(218, 2, 2);
+  background-color: rgb(218, 30, 30);
   color: #fff;
   font-family: Stop;
   width: 136px;
@@ -53,10 +102,12 @@
   letter-spacing: 1px;
   margin: 0 auto;
   position: absolute;
-  bottom: 4px;
+  bottom: 6px;
   left: 0;
   right: 0;
 }
+
+
 
 .fa-solid{
   color: rgb(218, 2, 2);

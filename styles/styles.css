@@ -3,6 +3,11 @@
   src: url(/fonts/Stopbuck.ttf);
 }
 
+@font-face {
+  font-family: Quote;
+  src: url(/fonts/Gistesy.ttf);
+}
+
 
 
 * {
