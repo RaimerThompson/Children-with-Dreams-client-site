@@ -174,7 +174,22 @@ fill: #fff;
 
 
 
-/* 
+/* sm mobile */
+/* @media (min-width: 325px) {} */
+
+/* md mobile */
+/* @media (min-width: 400px) {} */
+
+/* lg mobile */
+/* @media (min-width: 475px) {} */
+
+/* sm Tablet */
+/* @media (min-width: 640px) {} */
+
+/* Tablet*/
+@media (min-width: 768px) {
+
+  
 ul li a:hover{
   color:  #e00001;
 }
@@ -246,35 +261,15 @@ transition: .2s;
   box-shadow: rgba(0, 0, 0, 0.5) 0px 5px 15px;
 }
 
-.stick__logo{
-height: 2.5rem;
-width: 4rem;
-position: absolute;
-right: 0;
-top: 0;
-fill: #fff;
-} */
 
+  .hamburger__btn{
+    display: none;
+  }
 
-
-
-
-
-
-/* sm mobile */
-/* @media (min-width: 325px) {} */
-
-/* md mobile */
-/* @media (min-width: 400px) {} */
-
-/* lg mobile */
-/* @media (min-width: 475px) {} */
-
-/* sm Tablet */
-/* @media (min-width: 640px) {} */
-
-/* Tablet*/
-/* @media (min-width: 768px) {} */
+  .stick__logo{
+   display: none;
+    }
+}
 
 /* Laptop */
 /* @media (min-width: 1024px) {} */
