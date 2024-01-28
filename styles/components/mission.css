@@ -27,9 +27,10 @@
 .main__quote{
   font-style: italic;
   font-family: Quote;
-  font-size: 2.75rem;
-  letter-spacing: 2px;
+  font-size: 2rem;
+  letter-spacing: 1.5px;
   font-weight: 100;
+  padding: 0 2rem;
 }
 
 .main__quote-bottom{
@@ -44,7 +45,8 @@
   padding: 1rem;
   display: flex;
   flex-direction: column;
-  gap: 1em
+  gap: 1em;
+  margin-bottom: 4rem;
 }
 
 .mission__container{
@@ -141,6 +143,11 @@
   .mission__container{
     display: flex;
     flex-direction: row;
+  }
+
+  .main__quote{
+    font-size: 2rem;
+    letter-spacing: 2px;
   }
 }
 
