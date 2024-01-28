@@ -1,8 +1,9 @@
 .footer{
-  padding: 2rem;
+  padding: 2.5rem 0 1rem 0;
   color: white;
   background-color: rgba(218, 2, 2, .8);
   text-align: center;
+  position: relative;
 }
 
 .credit{
@@ -12,6 +13,151 @@
 .credit__name{
   font-family: Stop;
   letter-spacing: 2px;
-  font-size: 14px;
+  font-size: 12px;
   font-weight: 100;
 }
+
+.top__footer{
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 3rem;
+  position: relative;
+}
+
+.top__footer li{
+  padding-top: 3px;
+}
+
+.footer__line{
+  content: '';
+  width: 90%;
+  border-bottom: 1px solid white;
+  margin: 0 auto;
+  position: relative;
+  top: -1rem;
+}
+
+.top__left{
+  display: flex;
+  flex-direction: column;
+}
+
+
+.footer__socials{
+  display: flex;
+  flex-direction: column;
+}
+
+.footer__socials li i{
+  cursor: pointer;
+  font-size: 1.5rem;
+  padding-bottom: 1rem;
+}
+
+.footer__socials li i:hover{
+  color: black;
+}
+
+.top__title,
+.socials__title{
+  font-family: 'Poppins', sans-serif;
+  letter-spacing: 1px;
+  font-size: 1.1rem;
+  margin-bottom: 10px;
+}
+
+.footer__logo{
+  width: 0;
+}
+
+
+
+/* sm mobile */
+@media (min-width: 325px) {
+  .footer{
+    padding: 2.5rem .5rem 1rem .5rem;
+  }
+}
+
+/* md mobile */
+/* @media (min-width: 400px) {} */
+
+/* lg mobile */
+@media (min-width: 475px) {
+  .footer{
+    padding: 2.5rem 2rem 1rem 2rem;
+  }
+}
+
+/* sm Tablet */
+@media (min-width: 640px) {
+
+  .footer{
+    padding: 3.5rem 2rem 1rem 2rem;
+  }
+
+  .footer__logo{
+      width: 7rem;
+      position: relative;
+      top: -2rem;
+      left: 0;
+      right: 0;
+      margin: 0 auto;
+  }
+
+  .top__footer li{
+    padding-top: 6px;
+  }
+}
+
+/* Tablet*/
+@media (min-width: 768px) {
+  
+  .footer{
+    padding: 1.5rem 2rem 1rem 2rem;
+  }
+
+  .footer__logo{
+    width: 8rem;
+    position: relative;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+  }
+
+  .top__title,
+  .socials__title{
+  font-size: 1.3rem;
+  }
+}
+
+/* Laptop */
+@media (min-width: 1024px) {
+
+  .footer{
+    padding: 0 2rem 1rem 2rem;
+  }
+
+  .footer__logo{
+    width: 10rem;
+    position: relative;
+    top: 3rem;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+  }
+
+ 
+  .top__title,
+  .socials__title{
+  font-size: 1.5rem;
+  }
+}
+
+/* xL */
+/* @media (min-width: 1288px) {} */
+
+/* 2xL */
+/* @media (min-width: 1536px) {}   */
+
