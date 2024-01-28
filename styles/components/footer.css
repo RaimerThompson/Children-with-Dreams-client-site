@@ -1,0 +1,17 @@
+.footer{
+  padding: 2rem;
+  color: white;
+  background-color: rgba(218, 2, 2, .8);
+  text-align: center;
+}
+
+.credit{
+  font-size: 16px;
+}
+
+.credit__name{
+  font-family: Stop;
+  letter-spacing: 2px;
+  font-size: 14px;
+  font-weight: 100;
+}
