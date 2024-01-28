@@ -282,14 +282,14 @@ transition: .2s;
   flex-direction: row;
   align-items: inherit;
   justify-content: normal;
-  gap: 2rem;
+  gap: 1.3rem;
   list-style: none;
   text-decoration: none;
   position: inherit;
   top: 0;
   right: inherit;
   height: inherit;
-  width: 270px;
+  width: initial;
   background-color: initial;
   padding: initial;
   z-index: 100;
@@ -299,10 +299,23 @@ transition: .2s;
 }
 
 /* Laptop */
-/* @media (min-width: 1024px) {} */
+@media (min-width: 1024px) {
+  #nav{
+    padding: 2rem 4rem;
+  }
+
+  #navbar{
+    gap: 2em;
+
+  }
+}
 
 /* xL */
-/* @media (min-width: 1288px) {} */
+@media (min-width: 1288px) {
+  #nav{
+    padding: 2rem 6rem;
+  }
+}
 
 /* 2xL */
 /* @media (min-width: 1536px) {}   */
