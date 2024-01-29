@@ -15,6 +15,20 @@
   gap: 2em;
 }
 
+.home__title{
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  left: 15%;
+  right: 0;
+  top: 5rem;
+  font-size: 3rem;
+  /* width: fit-content; */
+  color: white;
+  background-color: transparent;
+  font-family: 'Open Sans', sans-serif;
+}
+
 .donate__btn{
   position: absolute;
   border: 4px solid  rgb(218, 50, 50);
@@ -25,7 +39,7 @@
   font-size: 1rem;
   letter-spacing: 4px;
   border-radius: 8%;
-  bottom: 6rem;
+  bottom: 5rem;
   left: 0;
   right: 0;
   margin: 0 auto;
@@ -60,7 +74,7 @@
   height: 100%;
   object-fit: cover;
   overflow: hidden;
-  filter: contrast(80%);
+  filter: contrast(75%);
 }
 
 .slide.active{
@@ -109,11 +123,11 @@
   color: black;
 }
 .prev{
-left: 2rem;
+left: 1.25rem;
 }
 
 .next{
-right: 2rem;
+right: 1.25rem;
 }
 
 .indicator{
@@ -155,22 +169,23 @@ right: 2rem;
 
 /* md mobile */
 @media (min-width: 400px) {
-.prev,
-.next{
-  position: absolute;
-  z-index: 20;
-  top: 50%;
-  transform: translate(0, -50%); 
-  width: .5rem;
-  color: rgb(230, 230, 230);
-  /* line-height: 1rem; */
-  cursor: pointer;
-  font-size: 2rem;
-  text-align: center;
-  align-items: center;
-  justify-content: center;
-  opacity: 1;
-}
+  .prev,
+  .next{
+    position: absolute;
+    z-index: 20;
+    top: 50%;
+    transform: translate(0, -50%); 
+    width: .5rem;
+    color: rgb(230, 230, 230);
+    /* line-height: 1rem; */
+    cursor: pointer;
+    font-size: 2rem;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    opacity: 1;
+  }
+
 }
 
 /* lg mobile */
@@ -180,7 +195,20 @@ right: 2rem;
 /* @media (min-width: 640px) {} */
 
 /* Tablet*/
-/* @media (min-width: 768px) {} */
+@media (min-width: 768px) {
+  .prev{
+    left: 2rem;
+    }
+    
+    .next{
+    right: 2rem;
+    }
+
+    .home__title{
+      font-size: 4.25rem;
+      left: 15%;
+    }
+}
 
 /* Laptop */
 /* @media (min-width: 1024px) {} */
