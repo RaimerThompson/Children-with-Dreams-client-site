@@ -30,3 +30,97 @@
   text-align: center;
   margin-bottom: 1rem;
 }
+
+.team__icon{
+  padding-top: 1rem;
+}
+
+.contact__container{
+  padding: 0 2rem 4rem 2rem;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.contact__box{
+  margin-bottom: 1rem;
+}
+
+.contact__box span{
+  color:  #e00001;
+}
+
+input:focus,
+textarea:focus{
+  outline: 1px solid rgb(0, 0, 0);
+}
+
+input,
+textarea{
+  padding-left: 8px;
+}
+
+.contact__label{
+  font-weight: 600;
+}
+
+.contact__btn{
+  color: #fff;
+  background-color: rgba(218, 2, 2, .8);
+  border: 2px solid  rgba(218, 2, 2, .8);
+  font-family: Stop;
+  padding: .75rem 1rem;
+  border-radius: 8%;
+  /* position: relative; */
+  /* bottom: 14px; */
+  letter-spacing: 2.5px;
+  transition: letter-spacing 400ms,
+  transform 400ms ;
+  cursor: pointer;
+  /* display: none; */
+}
+
+.contact__btn:hover{
+  /* background-color: white;
+  color: black;
+  border: 2px solid black; */
+  /* transform: scale(1.05); */
+  box-shadow: rgba(0, 0, 0, 0.5) 0px 5px 15px;
+}
+
+.contact__group{
+  display: flex;
+  gap: 2em;
+}
+
+
+
+
+/* sm mobile */
+/* @media (min-width: 325px) {} */
+
+/* md mobile */
+@media (min-width: 400px) {
+  
+.contact__container{
+  padding: 0 4rem 4rem 4rem;
+}
+}
+
+/* lg mobile */
+/* @media (min-width: 475px) {} */
+
+/* sm Tablet */
+/* @media (min-width: 640px) {} */
+
+/* Tablet*/
+/* @media (min-width: 768px) {} */
+
+/* Laptop */
+/* @media (min-width: 1024px) {} */
+
+/* xL */
+/* @media (min-width: 1288px) {} */
+
+/* 2xL */
+/* @media (min-width: 1536px) {}   */
+

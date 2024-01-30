@@ -80,6 +80,7 @@
   letter-spacing: 2.5px;
   margin: 0 auto;
   width: 130px;
+  cursor: pointer;
 }
 
 .banner__btn-left:hover{
@@ -100,6 +101,7 @@
   letter-spacing: 2.5px;
   margin: 0 auto;
   width: 120px;
+  cursor: pointer;
 }
 
 .banner__btn-right:hover{

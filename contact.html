@@ -79,12 +79,43 @@
   </main>
 
   <!-- <h2 class="contact__quote">“We Support Youth and Families First!”</h2> -->
-  <img src="/images/Screenshot (92).png" alt="">
+  <img class="team__icon" src="/images/Screenshot (92).png" alt="">
   <h2 class="team__title">Thank you for your interest in making a difference</h2>
 
 
   <section class="contact__container">
-   
+    <form action="" class="contact__form" id="contact-form">
+      <div class="contact__group">
+        <div class="contact__box">
+          <label for="name" class="contact__label">First Name<span>*</span> </label>
+          <input type="text" name="user_name" class="contact__input" id="name" required placeholder="">
+        </div>
+        <div class="contact__box">
+          <label for="name" class="contact__label">Last Name<span>*</span> </label>
+          <input type="text" name="user_name" class="contact__input" id="name" required placeholder="">
+        </div>
+      
+      </div>
+
+        <div class="contact__box">
+          <label for="email" class="contact__label">Email<span>*</span></label>
+          <input type="email" name="user_email" class="contact__input" id="email" required placeholder="">
+        
+        </div>
+    
+
+        <div class="contact__box contact__area">
+          <label for="message" class="contact__label">Leave a message... </label>
+          <textarea name="user_message" id="message" rows="6"  class="contact__input" placeholder=""></textarea>
+        
+        </div>   
+        
+        <p class="contact__message" id="contact-message"></p>
+
+          <button class="contact__btn">
+            Send
+          </button>   
+  </form>
   </section>
 
 
@@ -104,9 +135,9 @@
       </ul>
       <ul class="footer__socials">
         <h4 class="socials__title">Lets Connect</h4>
-        <li><i class="fa-brands fa-instagram"></i></li>
-        <li><i class="fa-brands fa-square-facebook"></i></li>
-        <li><i class="fa-brands fa-youtube"></i></li>
+        <li> <a href="https://www.instagram.com/childrendreamsfoundation/"><i class="fa-brands fa-instagram"></i></a></li>
+        <li> <a href="https://www.facebook.com/hjmmanagement/"> <i class="fa-brands fa-square-facebook"></i></a></li>
+        <li> <a href="https://www.youtube.com/channel/UCN0wYRUMeiXl961S_Bh7pNw"> <i class="fa-brands fa-youtube"></i></a></li>
       </ul>
     </div>
     <div class="footer__line"></div>

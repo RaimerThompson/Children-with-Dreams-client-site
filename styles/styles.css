@@ -49,17 +49,17 @@ input,
 textarea,
 button {
   display: inline-block;
-  background: none;
-  cursor: pointer;
+  /* background: none; */
+  /* cursor: pointer; */
   font-family: inherit;
-  border: none;
+  /* border: none; */
 }
 
 input,
 select,
 textarea{
   width: 100%;
-  outline: none;
+  /* outline: none; */
 }
 
 

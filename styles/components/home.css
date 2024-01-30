@@ -45,6 +45,7 @@
   margin: 0 auto;
   font-family: Stop;
   transition: letter-spacing 500ms ;
+  cursor: pointer;
 }
 
 .donate__btn:hover{

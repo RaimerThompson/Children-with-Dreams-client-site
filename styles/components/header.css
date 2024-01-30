@@ -54,6 +54,7 @@ ul li a.active{
   transition: letter-spacing 400ms,
   transform 400ms ;
   display: none;
+  cursor: pointer;
 }
 
 .top__btn:hover{
@@ -76,6 +77,7 @@ ul li a.active{
   letter-spacing: 2.5px;
   transition: letter-spacing 400ms,
   transform 400ms ;
+  cursor: pointer;
 }
 
 .mobile__btn:hover{
@@ -240,6 +242,7 @@ transition: .2s;
   transition: letter-spacing 400ms,
   transform 400ms ;
   display: initial;
+  cursor: pointer;
 }
 
 .top__btn:hover{
