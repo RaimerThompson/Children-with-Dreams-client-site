@@ -113,7 +113,11 @@ textarea{
 /* @media (min-width: 640px) {} */
 
 /* Tablet*/
-/* @media (min-width: 768px) {} */
+@media (min-width: 768px) {
+  .contact__title{
+    font-size: 5rem;
+  }
+}
 
 /* Laptop */
 /* @media (min-width: 1024px) {} */
